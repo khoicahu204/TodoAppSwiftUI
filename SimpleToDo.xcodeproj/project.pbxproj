@@ -14,6 +14,12 @@
 		8559DEA02DD38BB800FBB89D /* SimpleToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DE9F2DD38BB800FBB89D /* SimpleToDoTests.swift */; };
 		8559DEAA2DD38BB800FBB89D /* SimpleToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DEA92DD38BB800FBB89D /* SimpleToDoUITests.swift */; };
 		8559DEAC2DD38BB800FBB89D /* SimpleToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DEAB2DD38BB800FBB89D /* SimpleToDoUITestsLaunchTests.swift */; };
+		8559DEB92DD38C2B00FBB89D /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DEB82DD38C2B00FBB89D /* TodoItem.swift */; };
+		8559DEBB2DD38C5D00FBB89D /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DEBA2DD38C5D00FBB89D /* TodoViewModel.swift */; };
+		8559DEBF2DD38EE200FBB89D /* AddTaskView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DEBE2DD38EE200FBB89D /* AddTaskView.swift .swift */; };
+		8559DEC12DD38EF100FBB89D /* LocationHelper.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DEC02DD38EF100FBB89D /* LocationHelper.swift .swift */; };
+		8559DEC32DD38EFC00FBB89D /* ImageHelper.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DEC22DD38EFC00FBB89D /* ImageHelper.swift .swift */; };
+		8559DEC52DD4E19700FBB89D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559DEC42DD4E19700FBB89D /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		8559DEA52DD38BB800FBB89D /* SimpleToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8559DEA92DD38BB800FBB89D /* SimpleToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoUITests.swift; sourceTree = "<group>"; };
 		8559DEAB2DD38BB800FBB89D /* SimpleToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8559DEB82DD38C2B00FBB89D /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		8559DEBA2DD38C5D00FBB89D /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		8559DEBE2DD38EE200FBB89D /* AddTaskView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddTaskView.swift .swift"; sourceTree = "<group>"; };
+		8559DEC02DD38EF100FBB89D /* LocationHelper.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationHelper.swift .swift"; sourceTree = "<group>"; };
+		8559DEC22DD38EFC00FBB89D /* ImageHelper.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageHelper.swift .swift"; sourceTree = "<group>"; };
+		8559DEC42DD4E19700FBB89D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				8559DE8E2DD38BB600FBB89D /* SimpleToDoApp.swift */,
+				8559DEB82DD38C2B00FBB89D /* TodoItem.swift */,
 				8559DE902DD38BB600FBB89D /* ContentView.swift */,
+				8559DEC42DD4E19700FBB89D /* LocationManager.swift */,
+				8559DEBE2DD38EE200FBB89D /* AddTaskView.swift .swift */,
+				8559DEC02DD38EF100FBB89D /* LocationHelper.swift .swift */,
+				8559DEC22DD38EFC00FBB89D /* ImageHelper.swift .swift */,
+				8559DEBA2DD38C5D00FBB89D /* TodoViewModel.swift */,
 				8559DE922DD38BB800FBB89D /* Assets.xcassets */,
 				8559DE942DD38BB800FBB89D /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8559DEBB2DD38C5D00FBB89D /* TodoViewModel.swift in Sources */,
+				8559DEC32DD38EFC00FBB89D /* ImageHelper.swift .swift in Sources */,
 				8559DE912DD38BB600FBB89D /* ContentView.swift in Sources */,
+				8559DEB92DD38C2B00FBB89D /* TodoItem.swift in Sources */,
+				8559DEC52DD4E19700FBB89D /* LocationManager.swift in Sources */,
+				8559DEBF2DD38EE200FBB89D /* AddTaskView.swift .swift in Sources */,
 				8559DE8F2DD38BB600FBB89D /* SimpleToDoApp.swift in Sources */,
+				8559DEC12DD38EF100FBB89D /* LocationHelper.swift .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
